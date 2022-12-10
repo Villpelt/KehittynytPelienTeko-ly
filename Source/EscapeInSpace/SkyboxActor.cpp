@@ -36,6 +36,7 @@ void ASkyboxActor::GenerateSphere(int verticalSlices, int horizontalSlices)
 	float stepSizeVertical = 180.0f / verticalSlices;
 	float stepSizeHorizontal = 360.0f / horizontalSlices;
 	float vangle = 90.0f;
+
 	for (int v = 0; v <= verticalSlices; v++, vangle -= stepSizeVertical) 
 	{
 		float hangle = 0.0f, radiusMultiplierAtHeight = 1.0f;
